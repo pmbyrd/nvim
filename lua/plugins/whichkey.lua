@@ -32,6 +32,10 @@ return {
         b = { "<cmd>DashboardJumpMark<cr>", "Jump Mark" },
         t = { "<cmd>DashboardJumpMark<cr>", "Jump Mark" },
       },
+      S = {
+        --use the key S to save the current buffer
+        { "<cmd>w<cr>", "Save" },
+      },
     }, { prefix = "<leader>", mode = { "n", "v" } })
   end,
 }
